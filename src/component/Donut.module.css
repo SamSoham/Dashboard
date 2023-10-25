@@ -1,4 +1,4 @@
-.container{
+.container {
     display: flex;
     flex-direction: column;
     gap: 16px;
@@ -8,11 +8,13 @@
     border-radius: 8px;
     align-items: center;
 }
-.tag{
+
+.tag {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.highlight{
+
+.highlight {
     font-weight: 600;
 }

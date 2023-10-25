@@ -1,9 +1,9 @@
-import style from './Analysis.module.css'
+import style from "./Analysis.module.css";
 
 export default function Analysis() {
   return (
     <div className={style.container}>
-        <p style={{fontWeight:600,fontSize:"20px"}}>Syllabuswise Analysis</p>
+      <p style={{ fontWeight: 600, fontSize: "20px" }}>Syllabuswise Analysis</p>
       <div className={style.box}>
         <p>HTML Tools, Forms, History</p>
         <div className={style.tag}>

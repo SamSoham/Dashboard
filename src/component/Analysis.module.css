@@ -1,77 +1,95 @@
-.box{
+.box {
     display: flex;
     gap: 4px;
     flex-direction: column;
     color: #566474;
 }
-.tag{
+
+.tag {
     width: 300px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
-.progress_bar{
+
+.progress_bar {
     width: 250px;
     height: 10px;
     border-radius: 16px;
 }
-.indicator{
+
+.indicator {
     height: 10px;
     border-radius: 16px;
     animation: css 1s ease-in-out forwards;
 }
+
 @keyframes css {
-    0%{
+    0% {
         width: 0;
         opacity: 0;
     }
-    100%{
+
+    100% {
         width: 100;
         opacity: 1;
     }
 }
-.bar1{
+
+.bar1 {
     background-color: #438bf672;
 }
-.ibar1{
+
+.ibar1 {
     width: 190px;
     background-color: #438bf6;
 }
-.p1{
+
+.p1 {
     color: #438bf6;
 }
-.bar2{
+
+.bar2 {
     background-color: #FF914272;
 }
-.ibar2{
+
+.ibar2 {
     width: 150px;
     background-color: #FF9142;
 }
-.p2{
+
+.p2 {
     color: #FF9142;
 }
-.bar3{
+
+.bar3 {
     background-color: #FB5E5E72;
 }
-.ibar3{
+
+.ibar3 {
     width: 80px;
     background-color: #FB5E5E;
 }
-.p3{
+
+.p3 {
     color: #FB5E5E;
 }
-.bar4{
+
+.bar4 {
     background-color: #2EC97172;
 }
-.ibar4{
+
+.ibar4 {
     width: 200px;
     background-color: #2EC971;
 }
-.p4{
+
+.p4 {
     color: #2EC971;
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: column;
     gap: 8px;
